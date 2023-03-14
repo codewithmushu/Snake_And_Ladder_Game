@@ -22,9 +22,11 @@ namespace SnakeAndLadder
 
 
 
-           // UC1_SinglePlayer.StartPosition0(PlayerPosition , snakes,Ladders);
-             UC2_PlayerRollsTheDie.Random1To6(PlayerPosition ,snakes, Ladders);
-            //UC3_NoPlay.NoPlay_Ladder_Snake(PlayerPosition, snakes, Ladders);
+            // UC1_SinglePlayer.StartPosition0(PlayerPosition , snakes,Ladders);
+            // UC2_PlayerRollsTheDie.Random1To6(PlayerPosition ,snakes, Ladders);
+             UC3_NoPlay.NoPlay_Ladder_Snake(PlayerPosition, snakes, Ladders);
+            // UC4_RepeatTillWinning.PlayerRestart(PlayerPosition,snakes,Ladders);
+           // UC5_ExactWinninngPosition100.Playergetsexactnumtoadd100(PlayerPosition,snakes,Ladders);
         }
     }
 }
